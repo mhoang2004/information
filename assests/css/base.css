@@ -1,0 +1,212 @@
+:root {
+    /* khai báo biến */
+    --primary-color: #e74a2a;
+    --primary-color-rgba: rgb(231, 74, 42);
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
+}
+
+* {
+    box-sizing: inherit; 
+    /* kế thừa */
+}
+
+html {
+    font-size: 62.5%; 
+   /* tương đương 10px */
+   line-height: 1.4rem;
+   font-family: 'Roboto', sans-serif;
+   /* san-serit là chủng chữ không có chân, nếu roboto ko tải đc thì sans-serif hiển thị thay */
+   box-sizing: border-box;
+}
+
+
+/* responsive */
+.grid {
+    width: 1200x;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* test */
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right:  5px;
+    width: 16.6667%;
+}
+
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right:  5px;
+    width: 20%; 
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right:  5px;
+    width: 83.3334%;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-form));
+    }
+
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* cái này dùng để chiếm hết màn hình */
+    display: flex;
+    animation: fadeIn linear 0.1s;
+
+}
+
+.modal__overlay {
+    /* cách làm đen đen phần còn lại khi bật cái gì đó lên */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.modal__body {
+    position: relative;
+    margin: auto;
+    /* cách căn giữa khi có display = flex */
+    z-index: 1;
+    /* dịch chuyển cái khung lên overlay */
+    /* z-index, thật ra nó có nhiều tằng, ai có z-index cao hơn sẽ nằm ở trên */
+    animation: growth linear 0.1s;
+}
+
+/* Button style */
+.btn {
+    color: var(--text-color);
+    min-width: 124px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6rem;
+
+}
+
+.btn.btn--nomal:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn.btn--size-s {
+    height: 32px;
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+/* 1 element có cả 2 class này */
+.btn.btn--primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-weight: 300;   
+}
+
+.btn.btn--disable {
+    cursor: default;
+    /* độ sáng */
+    filter: brightness(70%) ;
+}
+
+/* Selection */
+.select-input {
+    position: relative;
+    min-width: 200px;
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: var(--white-color); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-input__label {
+    font-size: 1.4rem;
+}
+
+.select-input__icon {
+    font-size: 1.4rem;
+    color: rgba(131, 131, 131);
+    position: relative;
+    top: 1px;
+}
+
+.select-input:hover .select-input__list {
+    display: block;
+}
+
+.select-input__list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    padding: 8px 16px;
+    list-style: none;
+    display: none;
+    z-index: 1;
+}
+
+.select-input__link {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+}
+
+.select-input__link:hover {
+    color: var(--primary-color);
+}

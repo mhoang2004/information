@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F8-Shop</title>
+    <link rel="stylesheet" href="./assests/fonts/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng F8-Shop
+
+                            <!-- Header QR Code -->
+                            <div class="header__qr">
+                                <img src="./assests/img/qr_code.png" alt = "QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assests/img/google_play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assests/img/app_store.png" alt="App Store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="https://www.facebook.com/groups/f8official" target="_blank" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <!-- phần thông báo -->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--has-notify">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://palada.vn/wp-content/uploads/2022/04/hmm-tren-facebook.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">
+                                                    Xác thực chính hãng nguồn gốc các sản phẩm Ohui
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Hidden Tag là giải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://thegioimay.org/wp-content/uploads/2022/06/hmm-the-hien-su-nghi-ngo.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">
+                                                    Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Giá chỉ còn 375.000 (giá gốc 1.250.000 VND)
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://palada.vn/wp-content/uploads/2022/04/meme-hmm.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">
+                                                    Ohui chính thức ra mắt dòng son li mới THE FIRST GENITURE LIPSTICK
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Một lần môi càng mềm, quyến rũ với sắc màu nổi bật luôn là điều mà các quý cô ao ước
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">
+                                        Xem tất cả
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separate">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li> -->
+                        
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="https://scr.vn/wp-content/uploads/2020/07/avatar-cho-d%C3%A2n-IT.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Hoàng Lê</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a style="color: red;" href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img  class="header__logo-img" src="https://f8.vercel.app/_next/static/media/f8_icon.fa5f0478.png" alt="Logo F8"> 
+                        </a>
+                    </div>
+
+                    <div class="header__search">   
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm trong shop này">
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a href=""><a href="">Son dưỡng</a></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shop</span>
+                            <i class="fa-solid fa-chevron-down header__search-select-icon"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+
+                    </div>
+                    
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list ">
+                                <img src="./assests/img/no-cart.png" alt="chưa có hàng" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Card item -->
+                                    <li class="header__cart-item">
+                                        <img src="https://henashop.com/uploads/shops/Kem-Face-N-6.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item--info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mặt Ohui siêu xịn xò được chị em đang rất ưa chuộng hiện nay</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Bạc 
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="header__cart-item">
+                                        <img src="https://img.websosanh.vn/v10/users/review/images/ypaiswzm7utc8/sua-rua-mat-nghe-2.jpg?compress=85" alt="" class="header__cart-img">
+                                        <div class="header__cart-item--info">
+                                            <div class="header__cart-item-head">
+                                                <div class="header__cart-item-name-wrap">
+                                                    <h5 class="header__cart-item-name">Set sữa rửa mặt Ohui Prime, lựa chọn của phái đẹp</h5>
+                                                </div>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1.035.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Bạc 
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="header__cart-item">
+                                        <img src="https://www.foodpanda.vn/wp-content/uploads/2020/08/Picture1-1.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item--info">
+                                            <div class="header__cart-item-head">
+                                                <div class="header__cart-item-name-wrap">
+                                                    <h5 class="header__cart-item-name">Cushion trang điểm dưỡng đang được</h5>
+                                                </div>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1.350.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Bạc 
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+
+            </div>
+        </header>
+
+        <div class="app_container">
+            <div class="grid">
+                <div class="grid__row app_content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="fa-solid fa-list category__heading-icon"></i>
+                                Danh mục
+                            </h3>
+            
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Trang điểm mặt</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm môi</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter_btn btn">Phổ biến</button>
+                            <button class="home-filter_btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter_btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fa-solid fa-chevron-down"></i>
+
+                                <!-- List option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+                                
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                       <i class="home-filter__page-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+
+                                    <a href="" class="home-filter__page-btn"> 
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-product">
+                            <!-- Grid -> Row -> Column -->
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cuahanglamdep.com//data/2021/us1000/data/08/kem-duong-da-sieu-cap-sk-ii-masterpiece-pitera-cream.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Kem dưỡng da siêu cấp SK Masterpiece Pitera Cream</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">15.930.000đ</div>
+                                            <div class="home-product-item__price-current">13.000.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">12 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">SK-II</span>
+                                            <span class="home-product-item__origin_name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">22%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSHhdihIPMEsRE43S6O7ncTW8qB34kG5eJdISriRD49BJhHgTHEEqDe0M6onKThQw&usqp=CAc) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Kem dưỡng ẩm da mặt trắng da sáng mịn Neutrogena</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">1.200.000đ</div>
+                                            <div class="home-product-item__price-current">999.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">88 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Neutrogena</span>
+                                            <span class="home-product-item__origin_name">Mỹ</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://media.hasaki.vn/catalog/product/t/o/top_fb_ads_318900019_070522-1651894928_img_358x358_843626_fit_center.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Kem Dưỡng Ẩm Klairs Làm Dịu & Phục Hồi Da Ban Đêm 30ml</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">455.000đ</div>
+                                            <div class="home-product-item__price-current">270.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">66 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Klairs</span>
+                                            <span class="home-product-item__origin_name">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">51%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cuahanglamdep.com//data/2021/us1000/data/08/kem-duong-da-chong-lao-hoa-sk-ii-rna-radical-new-age-80g.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Kem dưỡng da chống lão hóa SK-II R.N.A Radical New Age 80g</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old"> 3.410.200đ</div>
+                                            <div class="home-product-item__price-current">2.890.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">10 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">SK-II</span>
+                                            <span class="home-product-item__origin_name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">23%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://sakurabeauty.vn/media/sanpham/1570726800/big-221.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Sakura Spots Care Brightening Cream
+                                            Kem dưỡng trắng, ngừa sạm nám</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">1.000.000đ</div>
+                                            <div class="home-product-item__price-current">955.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">56 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Sakura</span>
+                                            <span class="home-product-item__origin_name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">33%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://agiare.vn/wp-content/uploads/2017/12/Kem-duong-trang-da-Hada-Labo.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Kem dưỡng trắng Hada Labo Perfect White 50g</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">200.000đ</div>
+                                            <div class="home-product-item__price-current">220.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">72 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Hada Labo</span>
+                                            <span class="home-product-item__origin_name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">9%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://vn-test-11.slatic.net/p/9e68bf2ca5b9ca9cdc38789ba2c9396c.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Kem dưỡng ẩm da mặt trắng da sáng mịn Neutrogena</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">330.000đ</div>
+                                            <div class="home-product-item__price-current">310.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">12 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Pond</span>
+                                            <span class="home-product-item__origin_name">Thái Lan</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">8%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://agiare.vn/wp-content/uploads/2017/12/kem-duong-trang-da-Innisfree.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Kem dưỡng trắng da Innisfree Whitening Pore Cream</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">600.000đ</div>
+                                            <div class="home-product-item__price-current">550.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">7 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Innisfree </span>
+                                            <span class="home-product-item__origin_name">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://agiare.vn/wp-content/uploads/2017/12/kem-duong-sang-da-ban-dem-White-Lucent.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name">Kem dưỡng sáng da ban đêm Shiseido White Lucent MultiBright Night Cream</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">2.000.000đ</div>
+                                            <div class="home-product-item__price-current"> 1.700.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">130 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Shiseido</span>
+                                            <span class="home-product-item__origin_name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">39%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://agiare.vn/wp-content/uploads/2017/12/kem-duong-trang-da-mat-SK-ii-Cellumination-Deep-Surge-EX.jpg) ;"></div>
+                                        <!-- Cách dùng div mà vẫn hiển thị ra ảnh -->
+                                        <h4 class="home-product-item__name"> kem dưỡng trắng da mặt SK-ii Cellumination Deep Surge EX</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">3.200.000đ</div>
+                                            <div class="home-product-item__price-current">2.680.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">95 Đã bán</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">SK-II</span>
+                                            <span class="home-product-item__origin_name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">20%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+
+                        <!-- phân trang -->
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">  
+                                    <i class="pagination-item__icon fa-solid fa-chevron-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+
+
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">  
+                                    <i class="pagination-item__icon fa-solid fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">F8-Shop Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu về F8-Shop</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm mặt</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm mắt</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm mũi</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo dõi F8-Shop</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-instagram-square"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-linkedin"></i>
+                                    Linkedin
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assests/img/qr_code.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="./assests/img/google_play.png" alt="Google PLay" class="footer__download-apps-img">
+
+                                </a>
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="./assests/img/app_store.png" alt="App Store" class="footer__download-apps-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer__text">© 2022 - Bản quyền thuộc về Công ty F8-Shop</p>
+                </div>   
+            </div>
+        </footer>
+    </div>
+
+    <!-- FUll phần đăng kí/ đăng nhập -->
+
+    <!-- <div class="modal"> 
+         <div class="modal__overlay"></div>
+         <div class="modal__body"> -->
+
+
+            <!--Authen form -->
+
+            <!-- Register form -->
+            <!-- <div class="auth-form">
+         
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span> 
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                    
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với F8-Shop về
+                            <a href="" class="auth-form__policy-text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__policy-text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--nomal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+            
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với facebook
+                        </span>
+                    </a>
+
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với facebook
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+
+
+            <!-- Login form -->
+            <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng kí</span> 
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                        
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+    
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-fogot">
+                                    Quên mật khẩu
+                                </a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">
+                                    Cần trợ giúp?
+                                </a>
+                        </div>
+                            </div>
+                        
+                        <div class="auth-form__controls">
+                            <button class="btn btn--nomal auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+                
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-facebook-square"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+    
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Google
+                        </a>
+                    </div>
+                </div> -->
+
+          
+        
+        </div>
+    </div>
+</body>
+</html>
